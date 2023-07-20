@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <description></description>
+    <display-name>ServletContacto</display-name>
+    <servlet-name>ServletContacto</servlet-name>
+    <servlet-class>cl.awakelab.grupal1modulo6.servlets.ServletContacto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletContacto</servlet-name>
+    <url-pattern>/ServletContacto</url-pattern>
+  </servlet-mapping>
+  <display-name>grupal1modulo6</display-name>
+  <welcome-file-list>
+    <welcome-file>inicio.html</welcome-file>
+    <welcome-file>inicio.htm</welcome-file>
+    <welcome-file>inicio.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ServletInicio</display-name>
+    <servlet-name>ServletInicio</servlet-name>
+    <servlet-class>cl.awakelab.grupal1modulo6.servlets.ServletInicio</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletInicio</servlet-name>
+    <url-pattern>/ServletInicio</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletCrearCapacitacion</display-name>
+    <servlet-name>ServletCrearCapacitacion</servlet-name>
+    <servlet-class>cl.awakelab.grupal1modulo6.servlets.ServletCrearCapacitacion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletCrearCapacitacion</servlet-name>
+    <url-pattern>/ServletCrearCapacitacion</url-pattern>
+  </servlet-mapping>
+</web-app>
